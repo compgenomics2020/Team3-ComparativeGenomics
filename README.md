@@ -1,11 +1,6 @@
-
-
 ### Team3-ComparativeGenomics 
 We use tools from different levels to compare microbial isolates.
 
-## Listeria Monocytogene Comparative Genomics Pipeline
-
-### Tools incorporated
 ## FastANI
 Average Nucleotide Level, input fasta file, output ANI score.
 ## StringMLST
