@@ -34,7 +34,7 @@ def ChewBBACA(filenames,??parameters,out):##any parameters for ??
 
 
 
-def kSNP():
+def kSNP():##only for 7210 project
 
     subprocess.call(["conda", "activate", "T3env4"])
     
