@@ -10,7 +10,7 @@ Average Nucleotide Level, input fasta file, output ANI score.
 ## ChewBBACA
 Phylogeny level-cgMLST, input fasta file, output allele matrix, Genome Quality plot, results_statistics.tsv, results_contigsinfo.tsv.
 ## kSNP
-Phylogeny level-SNP-based, input fasta file, output phylogentics tree.
+Phylogeny level-SNP-based, input fasta file, output tipAlleleCounts maximum likelihood phylogentics tree.
 ## Roary
 Pan-genome analysis
 ## BPGA
