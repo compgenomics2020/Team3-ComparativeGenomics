@@ -1,5 +1,5 @@
 ## Team3-ComparativeGenomics 
-We use tools from different levels to compare microbial isolates.
+We use tools from different levels to compare Listeria Monogeny isolates.
 ## Usage
 This pipeline is specific for BIOL7210 group project. We have 6 tool avaliable which are listed below. Run on command line by choosing a tool. e.g., <./tool_functions FastANI> will only run FastANI, and output ANI scores.
 
