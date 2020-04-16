@@ -61,5 +61,10 @@ def BPGA(filenames,??parameters,out):##any parameters for ??
 
 
 
-if __name__=="__main__":
+def main():
+    jobs = {"FastANI": FastANI, "StringMLST": StringMLST, "ChewBBACA": ChewBBACA, "kSNP": kSNP, "Roary": Roary, "BPGA": BPGA}
+    choosenOption = sys.argv[1]
+    jobs[choosenOption]()
+
+if __name__ == "__main__":
     main()
