@@ -20,3 +20,7 @@ Pan-genome analysis
 ## mini conda??
 ## environment setup??
 
+
+## dendogram.py
+*This script uses -w flag with input for working directory where respective files with annotations are stored. -f flag is 1 if the files are just genes list from CARD and VFDB annotations, and is 0 when using merged GFF files are present in working directory. 
+
