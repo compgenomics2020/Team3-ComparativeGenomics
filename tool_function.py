@@ -34,9 +34,15 @@ def ChewBBACA(filenames,??parameters,out):##any parameters for ??
 
 
 
-def kSNP(filenames,??parameters,out):##any parameters for ??
-	
-	return
+def kSNP():
+
+    subprocess.call(["conda", "activate", "T3env4"])
+    
+    subprocess.call(["kSNP3", "-in", "SNP/list_file.txt", "-outdir","output", "-k","19", "-ML","|", "tee","log.txt"])
+   
+    subprocess.call(["ete3", "view", "--text", "SNP/output/tree_tipAlleleCounts.ML.tre"])
+    
+    return
 
 
 
