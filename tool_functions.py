@@ -1,15 +1,10 @@
 
 #!/usr/bin/env python
 import argparse
-import os
-from os import listdir
-from os.path import isfile, exists
-import multiprocessing
 import subprocess
-import pandas as pf
 import re
 import sys
-from os.path import expanduser
+
 
 
 
@@ -34,7 +29,7 @@ def ChewBBACA(filenames,??parameters,out):##any parameters for ??
 
 
 
-def kSNP():##only for 7210 project
+def kSNP():##only for 7210 project, cd to ComparativeGenomics directory
 
     subprocess.call(["conda", "activate", "T3env4"])
     
