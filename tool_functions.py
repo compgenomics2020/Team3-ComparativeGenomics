@@ -8,21 +8,21 @@ import sys
 
 
 
-def FastANI(filenames,??parameters,out):##any parameters for ??
+def FastANI():
 	
 	return
 
 
 
 
-def StringMLST(filenames,??parameters,out):##any parameters for ??
+def StringMLST():
 	
 	return
 
 
 
 
-def ChewBBACA(filenames,??parameters,out):##any parameters for ??
+def ChewBBACA():
 	
 	return
 
@@ -38,14 +38,14 @@ def kSNP():##only for 7210 project, cd to ComparativeGenomics directory
 
 
 
-def Roary(filenames,??parameters,out):##any parameters for ??
+def Roary():
 	
 	return
 
 
 
 
-def BPGA(filenames,??parameters,out):##any parameters for ??
+def BPGA():
 	
 	return
 
