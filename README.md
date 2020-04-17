@@ -6,9 +6,9 @@ This pipeline is specific for BIOL7210 group project. We have 6 tool avaliable w
 ## FastANI
 Average Nucleotide Level, input fasta file, output ANI score.
 ## StringMLST
-7-gene-mlst, input fasta file, output mlst allele matrix.
+7-gene-mlst, input fastq file, output mlst allele matrix.
 ## ChewBBACA
-Phylogeny level-cgMLST, input fastq file, output allele matrix, Genome Quality plot, results_statistics.tsv, results_contigsinfo.tsv.
+Phylogeny level-cgMLST, input fasta file, output allele matrix, Genome Quality plot, results_statistics.tsv, results_contigsinfo.tsv.
 ## kSNP
 Phylogeny level-SNP-based, input is a txt file with a list of paths to fasta files, output tipAlleleCounts maximum likelihood phylogentics tree.
 ## Roary
