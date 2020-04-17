@@ -1,5 +1,5 @@
 ## Team3-ComparativeGenomics 
-We use tools from different levels to compare Listeria Monogeny isolates.
+We use tools from different levels to compare Listeria Monocytogenes isolates.
 ## Usage
 This pipeline is specific for BIOL7210 group project. We have 6 tool avaliable which are listed below. Run on command line by choosing a tool. e.g., <./tool_functions FastANI> will only run FastANI, and output ANI scores.
 
@@ -8,7 +8,7 @@ Average Nucleotide Level, input fasta file, output ANI score.
 ## StringMLST
 7-gene-mlst, input fasta file, output mlst allele matrix.
 ## ChewBBACA
-Phylogeny level-cgMLST, input fasta file, output allele matrix, Genome Quality plot, results_statistics.tsv, results_contigsinfo.tsv.
+Phylogeny level-cgMLST, input fastq file, output allele matrix, Genome Quality plot, results_statistics.tsv, results_contigsinfo.tsv.
 ## kSNP
 Phylogeny level-SNP-based, input is a txt file with a list of paths to fasta files, output tipAlleleCounts maximum likelihood phylogentics tree.
 ## Roary
