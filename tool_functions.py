@@ -72,10 +72,14 @@ def BPGA():
 	return
 
 
+def GFFanalysis():
+	subprocess.call(["cd","/home/projects/group-c/Team3-ComparativeGenomics/script"])
+	subprocess.call(["mkdir","GFF"])
+	subprocess.call(["./gffconverter.py"])
 
 
 def main():
-    jobs = {"FastANI": FastANI, "StringMLST": StringMLST, "ChewBBACA": ChewBBACA, "kSNP": kSNP, "Roary": Roary, "BPGA": BPGA}
+    jobs = {"FastANI": FastANI, "StringMLST": StringMLST, "ChewBBACA": ChewBBACA, "kSNP": kSNP, "Roary": Roary, "BPGA": BPGA, "GFFanalysis":GFFanalysis}
     choosenOption = sys.argv[1]
     jobs[choosenOption]()
 
