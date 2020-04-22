@@ -60,14 +60,11 @@ def kSNP():##only for 7210 project, cd to ComparativeGenomics directory
 
 
 
-def Roary():
-	
-	return
-
-
-
-
-def BPGA():
+def PanGenome():
+        #script location and working directory can be changed as per the requirements of the pipeline
+        script_loc="/home/projects/group-c/Team3-ComparativeGenomics"
+        working_dir="/home/projects/group-c/Team3-ComparativeGenomics/functional_annotation_data/All_gff"
+        subprocess.call(["python3",script_loc,"/dendogram.py","-w",working_dir," -f","0"])
 	
 	return
 
@@ -79,7 +76,7 @@ def GFFanalysis():
 
 
 def main():
-    jobs = {"FastANI": FastANI, "StringMLST": StringMLST, "ChewBBACA": ChewBBACA, "kSNP": kSNP, "Roary": Roary, "BPGA": BPGA, "GFFanalysis":GFFanalysis}
+    jobs = {"FastANI": FastANI, "StringMLST": StringMLST, "ChewBBACA": ChewBBACA, "kSNP": kSNP, "PanGenome": PanGenome, "GFFanalysis":GFFanalysis}
     choosenOption = sys.argv[1]
     jobs[choosenOption]()
 
